@@ -1,0 +1,6 @@
+2018-12-09 09:07:34,324-INFO-learn_logging.py-qianqian-日志信息：蛋蛋菌同学，你这个是一个info信息
+2018-12-09 09:07:34,339-WARNING-learn_logging.py-qianqian-日志信息：33同学，你这个是一个warning信息
+2018-12-09 09:07:34,339-ERROR-learn_logging.py-qianqian-日志信息：David zhang同学，你这个是一个error信息
+2018-12-09 09:07:34,339-CRITICAL-learn_logging.py-qianqian-日志信息：路人甲同学，你这个是一个critical信息
+2018-12-09 09:08:38,211-ERROR-learn_logging.py-qianqian-日志信息：David zhang同学，你这个是一个error信息
+2018-12-09 09:08:38,212-CRITICAL-learn_logging.py-qianqian-日志信息：路人甲同学，你这个是一个critical信息

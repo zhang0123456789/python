@@ -1,0 +1,240 @@
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%%(asctime)s-%%(levelname)s-%%(filename)s-%%(name)s-日志信息:%%(message)s
+%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s
+%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s
+%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s
+%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s
+%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s
+%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s
+%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s
+%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s
+2018-12-10 23:05:36,665-DEBUG-my_logging.py-mimi-日志信息:66666
+2018-12-10 23:05:36,666-INFO-my_logging.py-mimi-日志信息:7777
+2018-12-10 23:05:36,667-ERROR-my_logging.py-mimi-日志信息:8888
+2018-12-10 23:05:36,668-CRITICAL-my_logging.py-mimi-日志信息:99999
+2018-12-11 07:48:27,007-DEBUG-my_logging.py-mimi-日志信息:66666
+2018-12-11 07:48:27,042-INFO-my_logging.py-mimi-日志信息:7777
+2018-12-11 07:48:27,044-ERROR-my_logging.py-mimi-日志信息:8888
+2018-12-11 07:48:27,047-CRITICAL-my_logging.py-mimi-日志信息:99999
+2018-12-11 07:54:50,255-DEBUG-my_logging.py-mimi-日志信息:66666
+2018-12-11 07:54:50,258-INFO-my_logging.py-mimi-日志信息:7777
+2018-12-11 07:54:50,260-ERROR-my_logging.py-mimi-日志信息:8888
+2018-12-11 07:54:50,262-CRITICAL-my_logging.py-mimi-日志信息:99999
+2018-12-11 22:37:39,458-INFO-my_logging.py-mimi-日志信息:目前正在执行第1条用例：正常登录
+2018-12-11 22:37:39,466-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-11 22:37:39,467-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:37:39,468-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-11 22:37:39,470-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+2018-12-11 22:37:39,471-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-11 22:37:39,499-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-11 22:37:39,501-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-12-11 22:37:39,503-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-11 22:37:39,504-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-11 22:37:40,543-INFO-my_logging.py-mimi-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-11 22:37:40,544-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-11 22:37:40,546-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:37:40,548-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-11 22:37:40,550-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '12345678'}
+2018-12-11 22:37:40,553-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-11 22:37:40,580-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-11 22:37:40,582-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-11 22:37:40,583-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-11 22:37:40,585-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-11 22:37:41,587-INFO-my_logging.py-mimi-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-11 22:37:41,589-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-11 22:37:41,590-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:37:41,590-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-11 22:37:41,592-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 11868877346347, 'pwd': '123456'}
+2018-12-11 22:37:41,593-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-11 22:37:41,614-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-11 22:37:41,616-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-11 22:37:41,618-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-11 22:37:41,619-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-11 22:37:42,622-INFO-my_logging.py-mimi-日志信息:目前正在执行第4条用例：正常充值
+2018-12-11 22:37:42,623-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-11 22:37:42,624-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-11 22:37:42,625-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-11 22:37:42,625-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+2018-12-11 22:37:42,626-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-11 22:37:42,661-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-11 22:37:42,663-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': {'id': 24537, 'regname': 'test huahua', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5865045681.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0'}, 'msg': '充值成功'}
+2018-12-11 22:37:42,665-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-11 22:37:42,666-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-11 22:38:21,259-INFO-my_logging.py-mimi-日志信息:目前正在执行第1条用例：正常登录
+2018-12-11 22:38:21,260-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-11 22:38:21,260-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:38:21,261-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-11 22:38:21,262-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+2018-12-11 22:38:21,263-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-11 22:38:21,286-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-11 22:38:21,287-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-12-11 22:38:21,288-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-11 22:38:21,289-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-11 22:38:22,289-INFO-my_logging.py-mimi-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-11 22:38:22,290-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-11 22:38:22,291-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:38:22,292-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-11 22:38:22,293-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '12345678'}
+2018-12-11 22:38:22,293-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-11 22:38:22,314-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-11 22:38:22,315-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-11 22:38:22,316-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-11 22:38:22,317-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-11 22:38:23,317-INFO-my_logging.py-mimi-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-11 22:38:23,318-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-11 22:38:23,319-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:38:23,319-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-11 22:38:23,320-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 11868877346347, 'pwd': '123456'}
+2018-12-11 22:38:23,321-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-11 22:38:23,388-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-11 22:38:23,389-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-11 22:38:23,390-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-11 22:38:23,391-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-11 22:38:24,392-INFO-my_logging.py-mimi-日志信息:目前正在执行第4条用例：正常充值
+2018-12-11 22:38:24,393-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-11 22:38:24,394-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-11 22:38:24,394-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-11 22:38:24,395-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+2018-12-11 22:38:24,396-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-11 22:38:24,436-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-11 22:38:24,437-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': {'id': 24537, 'regname': 'test huahua', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5865046681.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0'}, 'msg': '充值成功'}
+2018-12-11 22:38:24,438-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-11 22:38:24,439-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 07:32:00,261-INFO-my_logging.py-mimi-日志信息:目前正在执行第1条用例：正常登录
+2018-12-13 07:32:00,262-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 07:32:00,264-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 07:32:00,266-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 07:32:00,267-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+2018-12-13 07:32:00,268-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 07:32:00,292-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 07:32:00,293-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-12-13 07:32:00,294-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 07:32:00,295-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 07:32:01,295-INFO-my_logging.py-mimi-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-13 07:32:01,296-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 07:32:01,298-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 07:32:01,299-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 07:32:01,299-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '12345678'}
+2018-12-13 07:32:01,300-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 07:32:01,322-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 07:32:01,323-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-13 07:32:01,324-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 07:32:01,324-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 07:32:02,326-INFO-my_logging.py-mimi-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-13 07:32:02,331-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 07:32:02,332-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 07:32:02,333-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 07:32:02,335-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 11868877346347, 'pwd': '123456'}
+2018-12-13 07:32:02,336-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 07:32:02,356-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 07:32:02,357-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-13 07:32:02,359-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 07:32:02,361-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 07:32:03,374-INFO-my_logging.py-mimi-日志信息:目前正在执行第4条用例：正常充值
+2018-12-13 07:32:03,477-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 07:32:03,479-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-13 07:32:03,481-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 07:32:03,482-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+2018-12-13 07:32:03,484-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 07:32:03,519-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 07:32:03,520-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': {'id': 24537, 'regname': 'test huahua', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5865078185.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0'}, 'msg': '充值成功'}
+2018-12-13 07:32:03,523-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 07:32:03,524-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 21:57:51,643-INFO-my_logging.py-mimi-日志信息:目前正在执行第1条用例：正常登录
+2018-12-13 21:57:51,645-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 21:57:51,647-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 21:57:51,648-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 21:57:51,650-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+2018-12-13 21:57:51,651-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 21:57:58,669-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 21:57:58,670-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-12-13 21:57:58,670-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 21:57:58,672-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 21:57:59,673-INFO-my_logging.py-mimi-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-13 21:57:59,674-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 21:57:59,675-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 21:57:59,676-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 21:57:59,679-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '12345678'}
+2018-12-13 21:57:59,680-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 21:58:00,054-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 21:58:00,055-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-13 21:58:00,058-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 21:58:00,059-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 21:58:01,061-INFO-my_logging.py-mimi-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-13 21:58:01,063-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 21:58:01,066-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 21:58:01,068-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 21:58:01,070-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 11868877346347, 'pwd': '123456'}
+2018-12-13 21:58:01,071-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 21:58:01,321-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 21:58:01,322-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-13 21:58:01,323-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 21:58:01,324-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 21:58:02,325-INFO-my_logging.py-mimi-日志信息:目前正在执行第4条用例：正常充值
+2018-12-13 21:58:02,329-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 21:58:02,331-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-13 21:58:02,331-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 21:58:02,332-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+2018-12-13 21:58:02,332-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 21:58:02,552-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 21:58:02,554-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': {'id': 24537, 'regname': 'test huahua', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5866146285.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0'}, 'msg': '充值成功'}
+2018-12-13 21:58:02,555-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 21:58:02,555-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 22:13:00,022-DEBUG-my_logging.py-mimi-日志信息:66666
+2018-12-13 22:13:00,036-INFO-my_logging.py-mimi-日志信息:7777
+2018-12-13 22:13:00,037-ERROR-my_logging.py-mimi-日志信息:8888
+2018-12-13 22:13:00,038-CRITICAL-my_logging.py-mimi-日志信息:99999
+2018-12-13 22:36:37,310-INFO-my_logging.py-mimi-日志信息:目前正在执行第1条用例：正常登录
+2018-12-13 22:36:37,311-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 22:36:37,311-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 22:36:37,312-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 22:36:37,313-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+2018-12-13 22:36:37,313-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 22:36:38,532-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 22:36:38,533-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-12-13 22:36:38,534-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 22:36:38,535-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 22:36:39,535-INFO-my_logging.py-mimi-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-13 22:36:39,536-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 22:36:39,537-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 22:36:39,539-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 22:36:39,540-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'pwd': '12345678'}
+2018-12-13 22:36:39,540-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 22:36:39,564-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 22:36:39,565-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-13 22:36:39,566-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 22:36:39,567-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 22:36:40,568-INFO-my_logging.py-mimi-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-13 22:36:40,569-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 22:36:40,570-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-13 22:36:40,571-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 22:36:40,571-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 11868877346347, 'pwd': '123456'}
+2018-12-13 22:36:40,572-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 22:36:40,590-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 22:36:40,591-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-13 22:36:40,592-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 22:36:40,593-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------
+2018-12-13 22:36:41,593-INFO-my_logging.py-mimi-日志信息:目前正在执行第4条用例：正常充值
+2018-12-13 22:36:41,595-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的URL地址----------
+2018-12-13 22:36:41,595-INFO-my_logging.py-mimi-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-13 22:36:41,596-INFO-my_logging.py-mimi-日志信息:------------开始请求，检查我们的param参数----------
+2018-12-13 22:36:41,597-INFO-my_logging.py-mimi-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+2018-12-13 22:36:41,598-INFO-my_logging.py-mimi-日志信息:-------------------开始http请求-------------------------------
+2018-12-13 22:36:41,699-INFO-my_logging.py-mimi-日志信息:-----------------------结束http请求--------------------------
+2018-12-13 22:36:41,700-INFO-my_logging.py-mimi-日志信息:登录请求结果：{'status': 1, 'code': '10001', 'data': {'id': 24537, 'regname': 'test huahua', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5866149599.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0'}, 'msg': '充值成功'}
+2018-12-13 22:36:41,701-INFO-my_logging.py-mimi-日志信息:断言结果是PASS
+2018-12-13 22:36:41,702-INFO-my_logging.py-mimi-日志信息:----------------断言结束-----------------

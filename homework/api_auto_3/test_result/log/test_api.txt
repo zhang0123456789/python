@@ -1,0 +1,168 @@
+2018-12-10 20:50:29,131-INFO-my_log.py-summer-日志信息:目前正在执行第1条用例：正常登录
+2018-12-10 20:50:29,145-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-10 20:50:29,163-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-10 20:50:29,178-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-10 20:50:29,196-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'pwd':'123456'}
+2018-12-10 20:50:29,221-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-10 20:50:29,277-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-10 20:50:29,296-INFO-my_log.py-summer-日志信息:登录请求结果:{'data': None, 'code': '10001', 'msg': '登录成功', 'status': 1}
+2018-12-10 20:50:29,307-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-10 20:50:29,327-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-10 20:50:29,350-INFO-my_log.py-summer-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-10 20:50:29,360-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-10 20:50:29,382-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-10 20:50:29,409-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-10 20:50:29,422-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'pwd':'12345678'}
+2018-12-10 20:50:29,432-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-10 20:50:29,490-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-10 20:50:29,502-INFO-my_log.py-summer-日志信息:登录请求结果:{'data': None, 'code': '20111', 'msg': '用户名或密码错误', 'status': 0}
+2018-12-10 20:50:29,518-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-10 20:50:29,535-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-10 20:50:29,557-INFO-my_log.py-summer-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-10 20:50:29,571-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-10 20:50:29,587-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-10 20:50:29,603-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-10 20:50:29,614-INFO-my_log.py-summer-日志信息:param：{'mobilephone':186887734689,'pwd':'123456'}
+2018-12-10 20:50:29,623-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-10 20:50:29,684-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-10 20:50:29,708-INFO-my_log.py-summer-日志信息:登录请求结果:{'data': None, 'code': '20111', 'msg': '用户名或密码错误', 'status': 0}
+2018-12-10 20:50:29,738-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-10 20:50:29,749-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-10 20:50:29,768-INFO-my_log.py-summer-日志信息:目前正在执行第4条用例：正常充值
+2018-12-10 20:50:29,788-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-10 20:50:29,802-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-10 20:50:29,814-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-10 20:50:29,824-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'amount':'1000'}
+2018-12-10 20:50:29,853-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-10 20:50:29,942-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-10 20:50:29,959-INFO-my_log.py-summer-日志信息:登录请求结果:{'data': {'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5860018909.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0', 'regname': 'test huahua', 'id': 24537}, 'code': '10001', 'msg': '充值成功', 'status': 1}
+2018-12-10 20:50:29,980-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-10 20:50:29,991-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-10 22:08:29,989-INFO-my_log.py-summer-日志信息:目前正在执行第1条用例：正常登录
+2018-12-10 22:08:30,243-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-10 22:08:30,247-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-10 22:08:30,250-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-10 22:08:30,254-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'pwd':'123456'}
+2018-12-10 22:08:30,258-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-10 22:08:30,660-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-10 22:08:30,664-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-12-10 22:08:30,667-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-10 22:08:30,671-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-10 22:08:30,674-INFO-my_log.py-summer-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-10 22:08:30,678-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-10 22:08:30,681-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-10 22:08:30,685-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-10 22:08:30,689-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'pwd':'12345678'}
+2018-12-10 22:08:30,692-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-10 22:08:30,714-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-10 22:08:30,717-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-10 22:08:30,721-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-10 22:08:30,724-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-10 22:08:30,728-INFO-my_log.py-summer-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-10 22:08:30,732-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-10 22:08:30,735-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-10 22:08:30,739-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-10 22:08:30,742-INFO-my_log.py-summer-日志信息:param：{'mobilephone':186887734689,'pwd':'123456'}
+2018-12-10 22:08:30,746-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-10 22:08:30,773-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-10 22:08:30,777-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-10 22:08:30,780-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-10 22:08:30,784-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-10 22:08:30,788-INFO-my_log.py-summer-日志信息:目前正在执行第4条用例：正常充值
+2018-12-10 22:08:30,791-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-10 22:08:30,794-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-10 22:08:30,798-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-10 22:08:30,802-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'amount':'1000'}
+2018-12-10 22:08:30,805-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-10 22:08:30,846-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-10 22:08:30,849-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 1, 'code': '10001', 'data': {'id': 24537, 'regname': 'test huahua', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5860038313.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0'}, 'msg': '充值成功'}
+2018-12-10 22:08:30,853-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-10 22:08:30,856-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-10 22:10:16,900-DEBUG-my_log.py-summer-日志信息:66666
+2018-12-10 22:10:16,904-INFO-my_log.py-summer-日志信息:yuxuan
+2018-12-10 22:10:16,908-ERROR-my_log.py-summer-日志信息:gaoyi
+2018-12-10 22:10:16,912-CRITICAL-my_log.py-summer-日志信息:yuexiaqignfeng
+2018-12-11 19:48:57,249-DEBUG-my_log.py-summer-日志信息:66666
+2018-12-11 19:48:57,312-INFO-my_log.py-summer-日志信息:yuxuan
+2018-12-11 19:48:57,315-ERROR-my_log.py-summer-日志信息:gaoyi
+2018-12-11 19:48:57,319-CRITICAL-my_log.py-summer-日志信息:yuexiaqignfeng
+2018-12-11 22:35:43,858-INFO-my_log.py-summer-日志信息:目前正在执行第1条用例：正常登录
+2018-12-11 22:35:43,943-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-11 22:35:43,946-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:35:43,950-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-11 22:35:43,954-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'pwd':'123456'}
+2018-12-11 22:35:43,958-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-11 22:35:44,027-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-11 22:35:44,031-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-12-11 22:35:44,035-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-11 22:35:44,038-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-11 22:35:44,045-INFO-my_log.py-summer-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-11 22:35:44,049-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-11 22:35:44,053-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:35:44,057-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-11 22:35:44,062-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'pwd':'12345678'}
+2018-12-11 22:35:44,066-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-11 22:35:44,093-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-11 22:35:44,099-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-11 22:35:44,110-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-11 22:35:44,117-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-11 22:35:44,122-INFO-my_log.py-summer-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-11 22:35:44,127-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-11 22:35:44,131-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-11 22:35:44,135-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-11 22:35:44,139-INFO-my_log.py-summer-日志信息:param：{'mobilephone':186887734689,'pwd':'123456'}
+2018-12-11 22:35:44,142-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-11 22:35:44,165-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-11 22:35:44,169-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-11 22:35:44,173-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-11 22:35:44,178-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-11 22:35:44,184-INFO-my_log.py-summer-日志信息:目前正在执行第4条用例：正常充值
+2018-12-11 22:35:44,188-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-11 22:35:44,193-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-11 22:35:44,199-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-11 22:35:44,204-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'amount':'1000'}
+2018-12-11 22:35:44,210-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-11 22:35:44,246-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-11 22:35:44,249-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 1, 'code': '10001', 'data': {'id': 24537, 'regname': 'test huahua', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5865044681.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0'}, 'msg': '充值成功'}
+2018-12-11 22:35:44,253-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-11 22:35:44,258-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-15 15:34:26,358-INFO-my_log.py-summer-日志信息:目前正在执行第1条用例：正常登录
+2018-12-15 15:34:26,385-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-15 15:34:26,387-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-15 15:34:26,390-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-15 15:34:26,393-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'pwd':'123456'}
+2018-12-15 15:34:26,395-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-15 15:34:42,128-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-15 15:34:42,131-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}
+2018-12-15 15:34:42,134-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-15 15:34:42,137-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-15 15:34:42,139-INFO-my_log.py-summer-日志信息:目前正在执行第2条用例：输入错误的密码
+2018-12-15 15:34:42,142-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-15 15:34:42,144-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-15 15:34:42,147-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-15 15:34:42,150-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'pwd':'12345678'}
+2018-12-15 15:34:42,152-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-15 15:34:42,172-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-15 15:34:42,175-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-15 15:34:42,178-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-15 15:34:42,180-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-15 15:34:42,183-INFO-my_log.py-summer-日志信息:目前正在执行第3条用例：输入错误的手机号
+2018-12-15 15:34:42,186-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-15 15:34:42,188-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+2018-12-15 15:34:42,191-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-15 15:34:42,193-INFO-my_log.py-summer-日志信息:param：{'mobilephone':186887734689,'pwd':'123456'}
+2018-12-15 15:34:42,196-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-15 15:34:42,217-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-15 15:34:42,220-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}
+2018-12-15 15:34:42,223-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-15 15:34:42,225-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
+2018-12-15 15:34:42,228-INFO-my_log.py-summer-日志信息:目前正在执行第4条用例：正常充值
+2018-12-15 15:34:42,231-INFO-my_log.py-summer-日志信息:----------------开检查我们的URL地址-------------
+2018-12-15 15:34:42,233-INFO-my_log.py-summer-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+2018-12-15 15:34:42,237-INFO-my_log.py-summer-日志信息:----------------开检查我们的param参数-------------
+2018-12-15 15:34:42,239-INFO-my_log.py-summer-日志信息:param：{'mobilephone':18688773467,'amount':'1000'}
+2018-12-15 15:34:42,242-INFO-my_log.py-summer-日志信息:----------------开始http请求-------------
+2018-12-15 15:34:42,282-INFO-my_log.py-summer-日志信息:----------------结束http请求-------------
+2018-12-15 15:34:42,285-INFO-my_log.py-summer-日志信息:登录请求结果:{'status': 1, 'code': '10001', 'data': {'id': 24537, 'regname': 'test huahua', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18688773467', 'leaveamount': '5866244111.10', 'type': '1', 'regtime': '2018-08-13 16:17:16.0'}, 'msg': '充值成功'}
+2018-12-15 15:34:42,288-INFO-my_log.py-summer-日志信息:本条用例的测试结论是:Pass
+2018-12-15 15:34:42,290-INFO-my_log.py-summer-日志信息:我在这里要看看TestResult的值
